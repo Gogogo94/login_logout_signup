@@ -30,7 +30,7 @@ function UploadImage() {
                     }}
                 />
                 <div>
-                    {previewImage ? <img src={previewImage} style={{ height: "50px", width: "50px" }} /> : null}
+                    {previewImage ? <img src={previewImage} alt="img" style={{ height: "50px", width: "50px" }} /> : null}
                 </div>
                 <button type="submit">Upload</button>
 
