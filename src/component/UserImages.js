@@ -9,7 +9,7 @@ function UserImages({ userID }) {
     useEffect(() => {
         axios.get(`https://insta.nextacademy.com/api/v2/images?userId=${userID}`)
             .then((resp) => { setImages(resp.data); console.log(resp.data) })
-    }, [id])
+    })
 
     return (
         <div>
