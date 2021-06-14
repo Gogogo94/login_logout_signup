@@ -39,7 +39,7 @@ function LoginModal({ close, storeSession }) {
     if (currentUser) {
         return (
             <div style={{ textAlign: "center" }}>
-                <img src={currentUser.profile_picture} style={{ height: "80px", widht: "80px", }} />
+                <img src={currentUser.profile_picture} alt="img" style={{ height: "80px", widht: "80px", }} />
                 <p>UserName : {currentUser.username}</p>
                 <p>Email : {currentUser.email}</p>
                 <p>ID : {currentUser.id}</p>

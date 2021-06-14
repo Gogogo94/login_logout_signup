@@ -17,7 +17,7 @@ function HomePage() {
             {user.map((i) => {
                 return (
                     <div>
-                        <img src={i.profileImage} style={{ height: "50px", width: "50px" }} />
+                        <img src={i.profileImage} alt="img" style={{ height: "50px", width: "50px" }} />
                         <p>Username : {i.username}</p>
                         <p>ID : {i.id}</p>
                         <UserImages userID={i.id} />

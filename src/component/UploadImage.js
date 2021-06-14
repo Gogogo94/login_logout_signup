@@ -5,7 +5,7 @@ function UploadImage() {
 
     const [imageFile, setImageFile] = useState(null)
     const [previewImage, setPreviewImage] = useState(null)
-    const [message, setMessage] = useState("")
+
 
     const handleUpload = (e) => {
         e.preventDefault()
